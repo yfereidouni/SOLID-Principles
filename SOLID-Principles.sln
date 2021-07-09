@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Dependency Inversion", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Single Responsibility", "01. Single Responsibility", "{CFFB0F7F-E890-4EE1-88BC-670759777B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{BAAD536A-6959-4E04-9D13-85EDEB12DD54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{BAAD536A-6959-4E04-9D13-85EDEB12DD54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{5A69CD02-50F5-4BEA-9BCD-949C3642A738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{BAAD536A-6959-4E04-9D13-85EDEB12DD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAAD536A-6959-4E04-9D13-85EDEB12DD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAAD536A-6959-4E04-9D13-85EDEB12DD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A69CD02-50F5-4BEA-9BCD-949C3642A738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A69CD02-50F5-4BEA-9BCD-949C3642A738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A69CD02-50F5-4BEA-9BCD-949C3642A738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A69CD02-50F5-4BEA-9BCD-949C3642A738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{4B8C7FB3-6E93-47F8-ADBA-0F0FB066C40D} = {0B6C8D38-8751-42F0-814A-DB0A9D6B7AA2}
 		{56DF5D2C-B087-4F8C-B43A-8839E7CBEAF8} = {1B725F2A-26D9-4F9B-88B6-CD45CE46657C}
 		{BAAD536A-6959-4E04-9D13-85EDEB12DD54} = {CFFB0F7F-E890-4EE1-88BC-670759777B62}
+		{5A69CD02-50F5-4BEA-9BCD-949C3642A738} = {927E516C-6852-4D29-BE88-F1245C724D45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34AE731B-EFBA-4C67-82A4-5C694C80F473}
